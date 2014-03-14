@@ -2,8 +2,12 @@
     display:block;
     
     border: 3px solid red;
-    position:relative;
+
     overflow: hidden;
+}
+.cms-block-wrapper {
+    display:block;
+    position:relative;
 }
 .cms-block-title {
     color: #FF0000;

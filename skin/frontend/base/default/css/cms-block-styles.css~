@@ -1,0 +1,20 @@
+.cms-block {
+    display:block;
+    
+    border: 3px solid red;
+
+    overflow: hidden;
+}
+.cms-block-wrapper {
+    display:block;
+    position:relative;
+}
+.cms-block-title {
+    color: #FF0000;
+    left: -1px;
+    position: absolute;
+    top: -19px;
+    background:white;
+    display:block;
+}
+

@@ -57,7 +57,7 @@ class VisibleBlocks_ShowBlocks_Block_Border extends Mage_Cms_Block_Block
             }
         }
          
-        return '<div class="cms-block"><span class="cms-block-title">' . $blockName . '</span>' . $html . '</div>';
+        return '<div class="cms-block-wrapper"><span class="cms-block-title">' . $blockName . '</span><div class="cms-block">' . $html . '</div></div>';
     }
 }
 
