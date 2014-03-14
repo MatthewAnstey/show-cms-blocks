@@ -1,0 +1,16 @@
+.cms-block {
+    display:block;
+    
+    border: 3px solid red;
+    position:relative;
+    overflow: hidden;
+}
+.cms-block-title {
+    color: #FF0000;
+    left: -1px;
+    position: absolute;
+    top: -19px;
+    background:white;
+    display:block;
+}
+
