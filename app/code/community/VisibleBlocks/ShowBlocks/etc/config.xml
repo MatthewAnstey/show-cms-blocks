@@ -22,7 +22,6 @@
         <layout>
             <updates>
                 <visibleblocks_showblocks>
-                         module="VisibleBlocks_ShowBlocks">
                     <file>visibleblocks_layout.xml</file>
                 </visibleblocks_showblocks>
             </updates>
