@@ -10,13 +10,23 @@
 
     </modules>
     <global>
-        <blocks>
+    <!--    <blocks>
             <cms>
                 <rewrite>
                     <block>VisibleBlocks_ShowBlocks_Block_Border</block>
                 </rewrite>
             </cms>
-        </blocks>
+        </blocks> -->
+     <events>
+        <core_block_abstract_to_html_after>
+            <observers>
+                <visibleblocks_showblocks>
+                    <class>VisibleBlocks_ShowBlocks_Model_Observer</class>
+                    <method>wrapHtml</method>
+                </visibleblocks_showblocks>
+            </observers>
+        </core_block_abstract_to_html_after>
+    </events>
     </global>
      <frontend>
         <layout>
