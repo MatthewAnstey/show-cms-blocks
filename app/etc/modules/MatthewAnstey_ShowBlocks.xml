@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
     <modules>
-        <VisibleBlocks_ShowBlocks>
+        <MatthewAnstey_ShowBlocks>
             <active>true</active>
             <codePool>community</codePool>
-        </VisibleBlocks_ShowBlocks>
+        </MatthewAnstey_ShowBlocks>
     </modules>
 </config>
