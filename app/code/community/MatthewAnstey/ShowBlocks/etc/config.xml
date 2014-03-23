@@ -2,21 +2,12 @@
 <config> 
     <modules>
         <MatthewAnstey_ShowBlocks>
-
             <!-- The version of our module, starting at 0.0.1 -->
             <version>0.0.1</version>
-
         </MatthewAnstey_ShowBlocks>
 
     </modules>
     <global>
-    <!--    <blocks>
-            <cms>
-                <rewrite>
-                    <block>VisibleBlocks_ShowBlocks_Block_Border</block>
-                </rewrite>
-            </cms>
-        </blocks> -->
      <events>
         <core_block_abstract_to_html_after>
             <observers>
