@@ -11,10 +11,10 @@ class MatthewAnstey_ShowBlocks_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function isUserAdmin()
     {
-        $sesId = isset($_COOKIE['adminhtml']) ? $_COOKIE['adminhtml'] : false;
+        $sessionId = isset($_COOKIE['adminhtml']) ? $_COOKIE['adminhtml'] : false;
         $session = false;
-        if ($sesId) {
-            $session = Mage::getSingleton('core/resource_session')->read($sesId);
+        if ($sessionId) {
+            $session = Mage::getSingleton('core/resource_session')->read($sessionId);
         }
         $loggedIn = false;
         if ($session) {
