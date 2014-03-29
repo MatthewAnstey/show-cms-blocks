@@ -57,4 +57,11 @@
             </resources>
         </acl>
     </adminhtml>
+    <default>
+        <matthewanstey>
+            <matthewanstey_group>
+                <matthewanstey_select>0</matthewanstey_select>
+            </matthewanstey_group>
+        </matthewanstey>
+    </default>
 </config>
