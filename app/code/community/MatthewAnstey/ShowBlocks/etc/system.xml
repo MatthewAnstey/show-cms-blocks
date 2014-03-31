@@ -12,7 +12,6 @@
             <sort_order>1000</sort_order>
             <show_in_default>1</show_in_default>
             <show_in_website>1</show_in_website>
-            <show_in_store>1</show_in_store>
             <groups>
                 <matthewanstey_group translate="label">
                     <label>Options</label>
@@ -24,12 +23,10 @@
                     <fields>
                          <matthewanstey_select translate="label">
                             <label>Show Cms Blocks Hints</label>
-                            <comment>Source model provider Magento's default Yes/No values</comment>
                             <frontend_type>select</frontend_type>
                             <sort_order>90</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
-                            <show_in_store>1</show_in_store>
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                         </matthewanstey_select>
                     </fields>
