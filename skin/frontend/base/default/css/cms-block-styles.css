@@ -10,7 +10,6 @@
 .cms-block-wrapper {
     display:block;
     position:relative;
-    overflow:auto;
 }
 .cms-block-title {
     display:block;
